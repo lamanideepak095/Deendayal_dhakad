@@ -28,7 +28,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "")
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
-PICS = (environ.get('PICS', 'https://graph.org/file/56b5deb73f3b132e2bb73.jpg https://graph.org/file/5303692652d91d52180c2.jpg https://graph.org/file/425b6f46efc7c6d64105f.jpg https://graph.org/file/876867e761c6c7a29855b.jpg')).split()  # Sample pic
+PICS = (environ.get('PICS', 'https://i.ibb.co/LD825pYq/photo-2024-12-15-02-58-25-7480811368581431300.jpg https://i.ibb.co/8n7DMRXv/photo-2024-12-15-02-58-25-7480811424416006168.jpg https://i.ibb.co/60MYW5GY/photo-2024-12-15-02-58-26-7480811454480777232.jpg https://i.ibb.co/bMnbKhzD/photo-2025-03-12-06-53-37-7480812717201162264.jpg')).split()  # Sample pic
 NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/e20b5fdaf217252964202.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://graph.org/file/60e8a622b14796e4448ce.mp4")
 SPELL_IMG = environ.get("SPELL_IMG", "https://i.ibb.co/TxdZZcqN/photo-2025-03-11-09-00-48-7480806785851326468.jpg")
@@ -133,7 +133,7 @@ MELCOW_NEW_USERS = is_enabled((environ.get('MELCOW_NEW_USERS', "False")), False)
 PROTECT_CONTENT = is_enabled((environ.get('PROTECT_CONTENT', "False")), True)
 PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "True")), True)
 PM_SEARCH = bool(environ.get('PM_SEARCH', True))  # PM Search On (True) / Off (False)
-EMOJI_MODE = bool(environ.get('EMOJI_MODE', False))  # Emoji status On (True) / Off (False)
+EMOJI_MODE = bool(environ.get('EMOJI_MODE', True))  # Emoji status On (True) / Off (False)
 
 # ============================
 # Bot Configuration
@@ -151,7 +151,7 @@ SEASONS = ["season 1" , "season 2" , "season 3" , "season 4", "season 5" , "seas
 # Server & Web Configuration
 # ============================
 
-STREAM_MODE = bool(environ.get('STREAM_MODE', True)) # Set Stream mode True or False
+STREAM_MODE = bool(environ.get('STREAM_MODE', False)) # Set Stream mode True or False
 
 NO_PORT = bool(environ.get('NO_PORT', False))
 APP_NAME = None
