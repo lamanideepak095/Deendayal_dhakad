@@ -93,11 +93,11 @@ IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', False))
 # ============================
 # Channel & Group Links Configuration
 # ============================
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/bobbyfdr')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/bobbyfdr')
-OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/bobbyfdr')
-DEENDAYAL_MOVIE_UPDATE_CHANNEL_LNK = environ.get('DEENDAYAL_MOVIE_UPDATE_CHANNEL_LNK', '-1002366273711')
-OWNERID = int(os.environ.get('OWNERID', '1234567890'))  # Replace with the actual admin ID
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+475lIeQ81jo3ZTE1')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/SK_MOVIESZ')
+OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/SK_MOVIESZ')
+DEENDAYAL_MOVIE_UPDATE_CHANNEL_LNK = environ.get('DEENDAYAL_MOVIE_UPDATE_CHANNEL_LNK', 'https://t.me/+PmeM2mS6WzNkNTJl')
+OWNERID = int(os.environ.get('OWNERID', '6662808885'))  # Replace with the actual admin ID
 
 # ============================
 # User Configuration
