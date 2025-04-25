@@ -84,11 +84,11 @@ HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/dreamcinezone')  # Ho
 # ============================
 # Link Shortener Configuration
 # ============================
-IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'ModiJiUrl.Com')
-SHORTLINK_API = environ.get('SHORTLINK_API', '7deb3cdb3f317382b1e268052b80dc4ada008e1c')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/How_to_openthislink/4')  # Tutorial video link for opening shortlink website
-IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', False))
+IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'linkcents.com')
+SHORTLINK_API = environ.get('SHORTLINK_API', '2273288333134c87496059f5414c34317ecec8d8')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/How_To_Open_Link_SKl')  # Tutorial video link for opening shortlink website
+IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 
 # ============================
 # Channel & Group Links Configuration
